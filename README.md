@@ -1,20 +1,40 @@
 # Easy Parking Seattle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Home
-
+## Overview
 Hassle-free parking starts here!
 
 Seattle traffic is a growing issue in the city. This web application, Easy Parking Seattle, allows you to easily view street parking spaces with the touch of a button. 
 
-## Map
+## Details
 
-You can search for a Point of Interest and find street parking close to it.
+### Language
+* Javascript
+* HTML
 
-For each parking station, you will be able to view its location, hours and rates, and comments.
+### Framework
+* CSS
+* Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-By signing up for an account with us, you will be able to rate the parking spots for future reference. 
+### Library
+* [React](https://reactjs.org/)
+
+### Platform
+* [Firebase](https://firebase.google.com/)
+
+### Map
+* [Mapbox](https://www.mapbox.com/)
+
+## Function
+
+Based on the search for a Point of Interest, users are able to find street parking close to it.
+
+For each parking station, users will be able to view its location, hours and rates, and comments.
+
+ ![search-parking](https://github.com/yiranni/easy-parking-seattle/blob/master/EPS.gif)
+
+By signing up for an account with us, users will be able to rate the parking spots for future reference. 
+
+![comment-parking](https://github.com/yiranni/easy-parking-seattle/blob/master/comments.gif)
 
 ## About
 
