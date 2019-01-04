@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+nav.navbar, .navbar-default {
+  background-color: #1D1D25 !important;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  font-family:'Roboto', sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #A3A3A3;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #a9fec9;
+  background-color: transparent;
+}
+
+.navbar-brand > p {
+  line-height: 16px;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#login {
+  background-color: #a9fec9;
+  color: white;
+}
+
+.modal-content {
+  margin-top: 200px;
+  border-radius: 0;
+  background-color: #1D1D25;
+}
+
+.modal-title {
+  color: #a9fec9;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.modal-body {
+  color: white;
+  font-size: 16px;
+}
+
+.btn-default {
+  border-radius: 0;
+  margin-right: 20px;
+  width:16%;
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-image: none;
+  border-radius: 0;
+  width: 16%;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+.container {
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+}
+
+.welcome {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #a9fec9;
+}
+
+.title {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 32px;
+    letter-spacing: 8px;
+    color: #a9fec9;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.notif {
+    color: white;
+    padding-top: 0;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+label {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.form-control {
+    border-radius: 0;
+    height: 40px;
+    width: 500px;
+    background-color: transparent;;
+    border-color: lightgray;
+    font-size: 18px;
+    color: white;
+}
+
+.form-group-buttons {
+    padding-top: 40px;
+}
+
+.btn-toolbar>.btn:hover {
+    color: white;
+    background-color: rgba(169, 169, 169, 0.164);
+    border-color: white; 
+}
+
+.btn-primary {
+    color: black;
+    background-color: #a9fec9;
+    border-color: transparent;
+}
+
+.user {
+    color: darkgray;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-size: 48px;
+    font-weight: 300;
+}

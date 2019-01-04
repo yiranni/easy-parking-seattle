@@ -1,0 +1,38 @@
+{
+  "homepage": "https://info340d-au18.github.io/easy-parking-seattle/",
+  "name": "easy-parking-seattle",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.6.0",
+    "gh-pages": "^2.0.1",
+    "mapbox-gl": "^0.51.0",
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "react-favicon": "0.0.14",
+    "react-map-gl": "^4.0.2",
+    "react-map-gl-geocoder": "^1.5.5",
+    "react-responsive": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "reactstrap": "^6.5.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
