@@ -36,14 +36,11 @@ By signing up for an account with us, users will be able to rate the parking spo
 
 ![comment-parking](https://github.com/yiranni/easy-parking-seattle/blob/master/comments.gif)
 
-## About
+## Data Resource
+The parking data is retrieved from [Seattle GeoData](https://gisdata.seattle.gov/server/rest/services/SDOT/SDOT_ParkingData/MapServer/2/query?where=1%3D1&outFields=*&outSR=4326&f=json).
 
-You can learn more about the founders of this web application on their personal websites.
 
-The parking data is retrieved from Seattle GeoData.
-
-Please contact us if you have any questions.
-
+---
 
 
 **Note: stay tune for our updates!**
