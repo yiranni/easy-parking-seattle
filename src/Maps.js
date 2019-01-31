@@ -46,7 +46,7 @@ class Maps extends Component {
         this.resize();
         
         // Load data
-        fetch('https://gisdata.seattle.gov/server/rest/services/SDOT/SDOT_ParkingData/MapServer/2/query?where=1%3D1&outFields=*&outSR=4326&f=json')
+        fetch('https://gisdata.seattle.gov/server/rest/services/SDOT/SDOT_ParkingTempNoPark/MapServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=json')
         .then(response => {
             return response.json();
         }).then(data => {
